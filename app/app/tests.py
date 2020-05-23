@@ -11,4 +11,4 @@ class CalcTest(TestCase):
         self.assertEquals(subtract(30, 50), -20)
 
     def test_subtract_two_negative_numbers(self):
-        self.assertEquals(subtract(-1, -10), -11)
+        self.assertEquals(subtract(-1, -10), 9)
